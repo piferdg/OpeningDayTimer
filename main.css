@@ -1,0 +1,79 @@
+body {
+  overscroll-behavior: none;
+}
+
+main {
+  background-image: url('./assets/coorsFieldLandscape.jpg');
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
+  width: auto;
+  min-height: 100vh;
+}
+
+.heading {
+  border-bottom: 1px solid white;
+  color: whitesmoke;
+}
+
+.upper-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  flex-wrap: wrap;
+  font-size: 5vh
+}
+
+.lower-heading {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1vh;
+  font-size: 3vh;
+  color:whitesmoke;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 5vh;
+  margin-top: 9vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  background: rgb(249, 249, 249, 0.8);
+  box-shadow: 5px 10px 18px black;
+}
+
+.countdown-text {
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+#timer {
+  padding-bottom: 5vh;
+  font-weight: bold;
+}
+
+.player-images-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  position: absolute;
+  bottom: 4%;
+}
+
+.player-images-container img {
+  box-shadow: 5px 10px 18px black;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 4vh;
+  }
+  .heading h2 {
+    font-size: 3vh;
+  }
+}
