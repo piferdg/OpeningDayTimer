@@ -43,7 +43,8 @@ main {
   margin-top: 9vh;
   margin-left: 25vw;
   margin-right: 25vw;
-  background: rgba(249, 249, 249, 0.8);
+  background: rgb(249, 249, 249);
+  opacity: 0.8;
   box-shadow: 5px 10px 18px black;
 }
 
@@ -113,6 +114,7 @@ main {
     margin-top: 4vh;
     margin-left: 9vw;
     margin-right: 9vw;
-    background: rgba(249, 249, 249, 0.8);
+    background: rgb(249, 249, 249);
+    opacity: 0.8;
   }
 }
